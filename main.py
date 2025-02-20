@@ -4,7 +4,7 @@
 from datasets.openneuro_dataset import OpenNeuroDataSet
 
 def main():
+    print('TO BE IMPLEMENTED')
 
-
-if __name == "__main__"
+if __name__ == "__main__":
   main()
