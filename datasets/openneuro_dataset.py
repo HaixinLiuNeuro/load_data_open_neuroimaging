@@ -14,7 +14,7 @@ class OpenNeuroDataSet:
     """
 
     try:
-      if not os.path.exist(target_dir):
+      if not os.path.exists(target_dir):
         os.makedirs(target_dir)
         on.download(dataset=dataset_id, target_dir=target_dir)
 
